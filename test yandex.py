@@ -14,6 +14,8 @@ DATABASE = {
     'Петя': 'Михайловка'
 }
 
+
+
 UTC_OFFSET = {
     'Москва': 3,
     'Санкт-Петербург': 3,
@@ -129,5 +131,6 @@ def runner():
     ]
     for query in queries:
         print(query, '-', process_query(query))
+
 
 runner()
