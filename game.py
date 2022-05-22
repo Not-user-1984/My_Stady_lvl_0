@@ -31,3 +31,4 @@ while True:
     play_roud = input('Еще? Д/Н  ')
     if  play_roud.lower() != 'д':
         break
+print("0")
