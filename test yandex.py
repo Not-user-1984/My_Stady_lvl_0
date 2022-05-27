@@ -131,6 +131,4 @@ def runner():
     ]
     for query in queries:
         print(query, '-', process_query(query))
-
-
 runner()

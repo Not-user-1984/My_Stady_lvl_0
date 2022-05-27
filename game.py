@@ -1,7 +1,8 @@
 import random
 
 while True:
-    user = input('Играем, Твой ход: камень, бумага, ножницы:  ')
+    user = input('Играем, Твой ход: камень, бумага, ножницы  ')
+    user_action  = user
     comp_list = ["камень","бумага","ножницы"]
     comp_rand = random.choice(comp_list)
     print(f"\nТвой ход {user}, Я выбрал {comp_rand}.")
@@ -31,4 +32,3 @@ while True:
     play_roud = input('Еще? Д/Н  ')
     if  play_roud.lower() != 'д':
         break
-print("0")
