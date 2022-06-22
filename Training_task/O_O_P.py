@@ -8,7 +8,7 @@ class Point:
         self.y = y
 
     def __del__(self):
-        print("удаление " + str(self))
+        print("Удaление " + str(self))
 
     def set_coords(self, x=0, y=3):
         self.x = x
@@ -22,9 +22,4 @@ pt = Point(2, 4)
 
 
 print(pt.__dict__)
-
-
-
-
-
 
