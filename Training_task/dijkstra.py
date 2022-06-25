@@ -1,4 +1,3 @@
-import graphlib
 #graph and Cost and Parents 
 graph = {}
 graph ["start"] = {}
@@ -27,7 +26,7 @@ parents['in'] = None
 
 processed = []
 
-#Fiding the node with  the lowest cost
+#Fiding the node with  the lowest cost(хотя это говарит функция сама)
 def Find_lowest_cost_node(costs):
     lowest_cost = float('inf')
     lowest_cost_node = None
@@ -51,7 +50,8 @@ while node is not None:
     processed.append(node)
     node = Find_lowest_cost_node(costs)
 
-    
 print(processed)
-
+print(graph['a'])
+print(graph['b'])
+print(graph)
 
